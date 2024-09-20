@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.woff?411amq") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-anonym-fill:before {
+    content: "\e912";
+}
+.icon-delivery-fill:before {
+    content: "\e913";
+}
+.icon-payment-fill:before {
+    content: "\e914";
+}
+.icon-cross:before {
+    content: "\e911";
+}
+.icon-odnoklassniki:before {
+    content: "\e900";
+}
+.icon-phone:before {
+    content: "\e901";
+}
+.icon-plus:before {
+    content: "\e902";
+}
+.icon-pregnancy:before {
+    content: "\e903";
+}
+.icon-receipt:before {
+    content: "\e904";
+}
+.icon-star-fill:before {
+    content: "\e905";
+}
+.icon-twitter:before {
+    content: "\e906";
+}
+.icon-vkontakte:before {
+    content: "\e907";
+}
+.icon-alcohol:before {
+    content: "\e908";
+}
+.icon-allergy:before {
+    content: "\e909";
+}
+.icon-arrow:before {
+    content: "\e90a";
+}
+.icon-burger:before {
+    content: "\e90b";
+}
+.icon-close:before {
+    content: "\e90c";
+}
+.icon-diabet:before {
+    content: "\e90d";
+}
+.icon-drive:before {
+    content: "\e90e";
+}
+.icon-facebook:before {
+    content: "\e90f";
+}
+.icon-mark:before {
+    content: "\e910";
+}

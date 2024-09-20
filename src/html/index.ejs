@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./components/root/head.ejs', { title: 'Home' }) %>
+
+<body>
+    <div class="page">
+        <%- include('./components/root/header.ejs') %>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__content">
+                            <h1>Віагра</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptas eius saepe. Esse, rerum reiciendis.</p>
+                        </div>
+                        <div class="hero__body">
+                            <div class="hero__descr">
+                                <div class="hero__descr-title">Гарантия 100% результата:</div>
+                                <ul class="hero__descr-list">
+                                    <li>В составе – панты канадского марала</li>
+                                    <li>Помогает при артирите и артрозе</li>
+                                    <li>Регенерирует поврежденные суставы</li>
+                                    <li>Запатентованная формула PSSJ 800</li>
+                                    <li>Устраняет не только боль, но и причину</li>
+                                    <li>На 100% натуральный состав</li>
+                                    <li>Активация природных сил организма</li>
+                                </ul>
+                            </div>
+                            <div class="hero__image">
+                                <div class="hero-swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="img/hero/drug.webp" alt="image drug" loading="lazy" width="352" height="345"></div>
+                                        <div class="swiper-slide"><img src="img/hero/drug.webp" alt="image drug" loading="lazy" width="352" height="345"></div>
+                                        <div class="swiper-slide"><img src="img/hero/drug.webp" alt="image drug" loading="lazy" width="352" height="345"></div>
+                                    </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                            <div class="hero__form">
+                                <div class="hero__form-title">Щоб замовити просто заповніть форму</div>
+                                <%- include('./components/partials/order-form.ejs') %>
+                            </div>
+                            <div class="hero__btns">
+                                <a href="#" class="btn btn_prim hero__buy">Замовити</a>
+                                <a href="#" class="btn">Інструкція</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <div class="container">
+                    <div class="content__form">
+                        <h2 class="title_prim">Щоб замовити просто заповніть форму</h2>
+                        <%- include('./components/partials/order-form.ejs') %>
+                    </div>
+                    <div class="content__inner">
+                        <h2 class="title_prim">Віагра - це</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic obcaecati, praesentium tempore sint nihil! Doloremque commodi dolorem corporis provident id modi vitae! Natus vero mollitia dolorem, consequuntur itaque omnis.</p>
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio mollitia animi at voluptates facilis consectetur laborum. Dolore cum iste officia, iure doloremque necessitatibus unde ullam beatae vero magni! Suscipit?</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ol>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum architecto fuga alias! Sequi quam odio ratione possimus non! Corporis est cum, sed doloremque in eligendi saepe tempora excepturi unde?</p>
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="container">
+                    <div class="features__inner">
+                        <div class="features__content">
+                            <h2 id="features" class="title_prim">Характеристики</h2>
+                        </div>
+                        <div class="features__warning">
+                            <ul class="features__warning-list features-list">
+                                <li class="features-list__item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><i class="icon-pregnancy"></i></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Вагітним</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features-list__item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><i class="icon-allergy"></i></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Алергікам</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features-list__item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><i class="icon-diabet"></i></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">При діабеті</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features-list__item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><i class="icon-drive"></i></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Водіям</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features-list__item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><i class="icon-alcohol"></i></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">З алкоголем</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features-list__item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><i class="icon-receipt"></i></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Відпускається</h3>
+                                            <p class="features-card__text">без рецепту</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="advantage">
+                <div class="container">
+                    <div class="advantage__inner">
+                        <div class="advantage__content">
+                            <h2 class="title_prim">Переваги</h2>
+                        </div>
+                        <ul class="advantage__list">
+                            <% for (let i = 0; i < 5; i++) { %>
+                            <li class="advantage__list-item advantage-card">
+                                <div class="advantage-card__image"><img src="img/advantage/<%= i + 1 %>.webp" alt="image advantage" loading="lazy" width="100" height="100"></div>
+                                <p class="advantage-card__descr">Lorem ipsum dolor sit amet consectetur.</p>
+                            </li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="compare">
+                <div class="container">
+                    <div class="compare__inner">
+                        <div class="compare__content">
+                            <h2 class="title_prim">Різниця між Дженериком та Віагрою</h2>
+                        </div>
+                        <div class="compare__table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Функція</th>
+                                        <th>Дженерик</th>
+                                        <th>Віагра</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Якість</td>
+                                        <td><i class="icon-cross"></i></td>
+                                        <td><i class="icon-mark"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Універсальність</td>
+                                        <td><i class="icon-cross"></i></td>
+                                        <td>Можно писать текст</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Органічність</td>
+                                        <td><i class="icon-cross"></i></td>
+                                        <td><i class="icon-mark"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кількість</td>
+                                        <td><i class="icon-mark"></i></td>
+                                        <td><i class="icon-cross"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ціна</td>
+                                        <td>Можно писать текст</td>
+                                        <td><i class="icon-mark"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="consist">
+                <div class="container">
+                    <div class="consist__inner">
+                        <div class="consist__content">
+                            <h2 class="title_prim">Що входить до складу Віагри</h2>
+                        </div>
+                        <div class="consist__body">
+                            <ul class="consist__list consist__list-left">
+                                <% for (let i = 0; i < 2; i++) { %>
+                                <li class="consist__list-item consist-card">
+                                    <div class="consist-card__image"><img src="img/consist/<%= i + 1 %>.webp" alt="image consist" loading="lazy" width="100" height="100"></div>
+                                    <div class="consist-card__content">
+                                        <h3>Lorem ipsum</h3>
+                                        <p>Lorem ipsum dolor sit.</p>
+                                    </div>
+                                </li>
+                                <% } %>
+                            </ul>
+                            <div class="consist__image"><img src="img/hero/drug.webp" alt="image drug" loading="lazy" width="352" height="345"></div>
+                            <ul class="consist__list consist__list-right">
+                                <% for (let i = 2; i < 4; i++) { %>
+                                <li class="consist__list-item consist-card">
+                                    <div class="consist-card__image"><img src="img/consist/<%= i + 1 %>.webp" alt="image consist" loading="lazy" width="100" height="100"></div>
+                                    <div class="consist-card__content">
+                                        <h3>Lorem ipsum</h3>
+                                        <p>Lorem ipsum dolor sit.</p>
+                                    </div>
+                                </li>
+                                <% } %>
+                            </ul>
+                            <ul class="consist__body-list">
+                                <% for (let i = 0; i < 4; i++) { %>
+                                <li class="consist__list-item consist-card">
+                                    <div class="consist-card__image"><img src="img/consist/<%= i + 1 %>.webp" alt="image consist" loading="lazy" width="100" height="100"></div>
+                                    <div class="consist-card__content">
+                                        <h3>Lorem ipsum</h3>
+                                        <p>Lorem ipsum dolor sit.</p>
+                                    </div>
+                                </li>
+                                <% } %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="indications">
+                <div class="container">
+                    <div class="indications__content">
+                        <h2 class="title_prim">Показання</h2>
+                    </div>
+                    <div class="indications__body">
+                        <ul class="indications__list">
+                            <li>возрастные изнашивании хрящевой ткани;</li>
+                            <li>различные гормональные нарушения;</li>
+                            <li>расстройства ЦНС, стрессы, нездоровый образ жизни;</li>
+                            <li>вирусные заболевания;</li>
+                            <li>авитаминоз;</li>
+                            <li>осложнения после травм;</li>
+                            <li>наследственные факторы;</li>
+                            <li>ожирение.</li>
+                        </ul>
+                        <a href="#" class="btn btn_prim indications__btn">Читати докладну інструкцію</a>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <div class="container">
+                    <div class="content__inner">
+                        <h2 class="title_prim">Відмінність від аналогів</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic obcaecati, praesentium tempore sint nihil! Doloremque commodi dolorem corporis provident id modi vitae! Natus vero mollitia dolorem, consequuntur itaque omnis.</p>
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio mollitia animi at voluptates facilis consectetur laborum. Dolore cum iste officia, iure doloremque necessitatibus unde ullam beatae vero magni! Suscipit?</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ol>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum architecto fuga alias! Sequi quam odio ratione possimus non! Corporis est cum, sed doloremque in eligendi saepe tempora excepturi unde?</p>
+                        <h2 class="title_prim">Як діє Віагра</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic obcaecati, praesentium tempore sint nihil! Doloremque commodi dolorem corporis provident id modi vitae! Natus vero mollitia dolorem, consequuntur itaque omnis.</p>
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio mollitia animi at voluptates facilis consectetur laborum. Dolore cum iste officia, iure doloremque necessitatibus unde ullam beatae vero magni! Suscipit?</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ol>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum architecto fuga alias! Sequi quam odio ratione possimus non! Corporis est cum, sed doloremque in eligendi saepe tempora excepturi unde?</p>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <div class="reviews__inner">
+                        <div class="reviews__content">
+                            <h2 class="title_prim">Відгуки</h2>
+                        </div>
+                        <%- include('./components/partials/reviews-list.ejs', { count: 4 }) %>
+                        <a href="#" class="btn btn_prim reviews__btn">Усі відгуки</a>
+                    </div>
+                </div>
+            </section>
+            <section class="drug">
+                <div class="container">
+                    <div class="drug__inner">
+                        <div class="drug__content">
+                            <h2 class="title_prim">Замовити</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laboriosam doloremque, nisi ex cum fugit? Porro corrupti quaerat unde exercitationem illum! Exercitationem enim, maiores suscipit pariatur ullam excepturi! Laudantium, voluptatibus.</p>
+                        </div>
+                        <form class="drug__form drug-form change-form">
+                            <div class="drug-form__selects">
+                                <div class="drug-form__dose">
+                                    <span>Дозування</span>
+                                    <div class="select">
+                                        <button class="select__selected"><span class="select__selected-value">Обрати</span><span class="icon-arrow"></span></button>
+                                        <div class="select__options">
+                                            <button data-price="91.69">viagra 100mg * 8</button>
+                                            <button data-price="119.22">viagra 100mg * 12</button>
+                                            <button data-price="183.43">viagra 100mg * 20</button>
+                                            <button data-price="275.17">viagra 100mg * 32</button>
+                                            <button data-price="495.35">viagra 100mg * 60</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drug-form__count">
+                                    <span>Кількість</span>
+                                    <div class="count">
+                                        <button class="count__btn count__decr">-</button>
+                                        <input class="count__input" type="number" value="1" min="1" max="20" required="">
+                                        <button class="count__btn count__incr">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drug-form__submit">
+                                <div class="drug-form__price change-price" data-price="37.57" data-currency="₴">Від 37.57 ₴</div>
+                                <button class="btn btn_prim drug-form__buy">Замовити</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <%- include('./components/root/footer.ejs') %>
+        <%- include('./components/root/actions.ejs') %>
+        <%- include('./components/root/popup.ejs') %>
+    </div>
+</body>
+
+</html>

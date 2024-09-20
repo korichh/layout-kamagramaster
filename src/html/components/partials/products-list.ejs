@@ -1,0 +1,47 @@
+<ul class="products-list">
+    <% for (let i = 0; i < count; i++) { %>
+    <li class="products-list__item product-card" itemscope="" itemprop="itemListElement" itemtype="https://schema.org/Drug">
+        <meta itemprop="name" content="Віагра">
+        <meta itemprop="description" content="">
+        <meta itemprop="prescriptionStatus" content="Over the bench">
+        <meta itemprop="url" content="#">
+        <meta itemprop="image" content="#">
+        <meta itemprop="category" content="#">
+        <div itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
+            <link itemprop="availability" href="https://schema.org/InStock">
+            <meta itemprop="priceCurrency" content="UAH">
+            <meta itemprop="price" content="100">
+            <meta itemprop="priceValidUntil" content="2024-12-31">
+            <div itemprop="priceSpecification" itemscope="" itemtype="https://schema.org/PriceSpecification">
+                <meta itemprop="price" content="100">
+                <meta itemprop="priceCurrency" content="UAH">
+                <meta itemprop="valueAddedTaxIncluded" content="true">
+            </div>
+            <div itemprop="priceSpecification" itemscope="" itemtype="https://schema.org/PriceSpecification">
+                <meta itemprop="price" content="100">
+                <meta itemprop="priceCurrency" content="UAH">
+                <meta itemprop="valueAddedTaxIncluded" content="true">
+            </div>
+        </div>
+        <a href="/product.html" class="product-card__inner">
+            <div class="product-card__top">
+                <div class="product-card__image">
+                    <img src="img/hero/drug.webp" alt="image product" loading="lazy" width="207" height="180">
+                    <div class="product-card__discount">65%</div>
+                </div>
+                <div class="product-card__content">
+                    <span class="product-card__title">Віагра</span>
+                    <div class="product-card__stock"><span class="icon-mark"></span><span class="product-card__stock-value">10</span> в наявності</div>
+                </div>
+            </div>
+            <div class="product-card__bottom">
+                <div class="product-card__price">
+                    <del class="product-card__old-price">100 ₴</del>
+                    <div class="product-card__current-price">37.57 ₴</div>
+                </div>
+                <button class="product-card__buy btn btn_prim">Замовити</button>
+            </div>
+        </a>
+    </li>
+    <% } %>
+</ul>

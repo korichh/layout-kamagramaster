@@ -1,0 +1,48 @@
+<form class="order-form change-form">
+    <div class="order-form__discount">
+        <span>Замовте зі знижкою</span>
+        <span class="order-form__discount-value">65%</span>
+    </div>
+    <div class="order-form__count">
+        <span>залишилось</span>
+        <span class="order-form__count-value">15</span>
+        <span>упаковок</span>
+    </div>
+    <div class="order-form__location">
+        <span>Ваш регіон:</span>
+        <a href="#" class="order-form__location-value">
+            <img src="img/lang/ua.webp" alt="icon lang">
+            <strong>Україна</strong>
+        </a>
+    </div>
+    <div class="row">
+        <label data-valid="Невірний email" class="column">
+            <span>Пошта:</span>
+            <input type="email" class="input-validity" placeholder="example@gmail.com" name="name" required>
+        </label>
+    </div>
+    <div class="row">
+        <label data-valid="Невірний номер телефону" class="column">
+            <span>Номер мобільного: </span>
+            <input pattern="\([0-9]{3}\)-[0-9]{3}-[0-9]{4}" type="text" class="phone-number input-validity" placeholder="(___)-___-____" name="phone" required>
+        </label>
+    </div>
+    <div class="order-form__select">
+        <div class="order-form__qty">
+            <div class="count">
+                <button class="count__btn count__decr">-</button>
+                <input class="count__input" type="number" value="1" min="1" max="20" required>
+                <button class="count__btn count__incr">+</button>
+            </div>
+        </div>
+        <div class="order-form__total">
+            <span>Разом:</span>
+            <span class="order-form__total-value change-price" data-price="37.57" data-currency="₴">37.57 ₴</span>
+            <span>+&nbsp;доставка</span>
+        </div>
+    </div>
+    <div class="order-form__btns">
+        <button class="btn btn_prim order-form__buy">Замовити</button>
+        <a href="#" class="btn">Інструкція</a>
+    </div>
+</form>

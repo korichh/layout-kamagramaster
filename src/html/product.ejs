@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./components/root/head.ejs', { title: 'Product' }) %>
+
+<body>
+    <div class="page">
+        <%- include('./components/root/header.ejs') %>
+        <main class="main">
+            <section class="product">
+                <div class="product__inner">
+                    <div class="product__item product-item">
+                        <div class="product-item__description product-description">
+                            <div class="container">
+                                <div class="product-item__top">
+                                    <div class="product-item__left">
+                                        <div class="product-item__image">
+                                            <img src="img/hero/drug.webp" alt="image drug" loading="lazy" width="352" height="345">
+                                            <div class="product-item__discount">65%</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item__right">
+                                        <div class="product-item__head">
+                                            <h1 class="title_content">Віагра</h1>
+                                            <a href="#feedback" class="product-item__rating">
+                                                <div class="product-item__stars">
+                                                    <i class="icon-star-fill"></i>
+                                                    <i class="icon-star-fill"></i>
+                                                    <i class="icon-star-fill"></i>
+                                                    <i class="icon-star-fill"></i>
+                                                    <i class="icon-star-fill"></i>
+                                                </div>
+                                                <div class="product-item__reviews">(2)</div>
+                                            </a>
+                                        </div>
+                                        <div class="product-item__article"><span>Артикул:</span> <span class="product-item__article-value">003907</span></div>
+                                        <div class="product-item__stock">В наявності — 10 штук</div>
+                                        <ul class="product-item__list">
+                                            <li class="product-item__item"><i class="icon-delivery-fill"></i><span>Доставка — 5-9 днів</span></li>
+                                            <li class="product-item__item"><i class="icon-anonym-fill"></i><span>Анонімна упаковка</span></li>
+                                            <li class="product-item__item"><i class="icon-payment-fill"></i><span>Методи оплати:</span></li>
+                                        </ul>
+                                        <form class="product-item__form product-form change-form">
+                                            <div class="product-form__selects">
+                                                <div class="product-form__dose">
+                                                    <span>Дозування</span>
+                                                    <div class="select">
+                                                        <button class="select__selected"><span class="select__selected-value">Обрати</span><span class="icon-arrow"></span></button>
+                                                        <div class="select__options">
+                                                            <button data-price="91.69">viagra 100mg * 8</button>
+                                                            <button data-price="119.22">viagra 100mg * 12</button>
+                                                            <button data-price="183.43">viagra 100mg * 20</button>
+                                                            <button data-price="275.17">viagra 100mg * 32</button>
+                                                            <button data-price="495.35">viagra 100mg * 60</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-form__count">
+                                                    <span>Кількість</span>
+                                                    <div class="count">
+                                                        <button class="count__btn count__decr">-</button>
+                                                        <input class="count__input" type="number" value="1" min="1" max="20" required>
+                                                        <button class="count__btn count__incr">+</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-form__submit">
+                                                <div class="product-form__price change-price" data-price="37.57" data-currency="₴">Від 37.57 ₴</div>
+                                                <button class="btn btn_prim product-form__buy">Замовити</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item__warning">
+                                <div class="container">
+                                    <ul class="product-item__warning-list features-list">
+                                        <li class="features-list__item features-card">
+                                            <div class="features-card__inner">
+                                                <div class="features-card__icon"><i class="icon-pregnancy"></i></div>
+                                                <div class="features-card__content">
+                                                    <h3 class="features-card__title">Вагітним</h3>
+                                                    <p class="features-card__text">не можна</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="features-list__item features-card">
+                                            <div class="features-card__inner">
+                                                <div class="features-card__icon"><i class="icon-allergy"></i></div>
+                                                <div class="features-card__content">
+                                                    <h3 class="features-card__title">Алергікам</h3>
+                                                    <p class="features-card__text">не можна</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="features-list__item features-card">
+                                            <div class="features-card__inner">
+                                                <div class="features-card__icon"><i class="icon-diabet"></i></div>
+                                                <div class="features-card__content">
+                                                    <h3 class="features-card__title">При діабеті</h3>
+                                                    <p class="features-card__text">не можна</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="features-list__item features-card">
+                                            <div class="features-card__inner">
+                                                <div class="features-card__icon"><i class="icon-drive"></i></div>
+                                                <div class="features-card__content">
+                                                    <h3 class="features-card__title">Водіям</h3>
+                                                    <p class="features-card__text">не можна</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="features-list__item features-card">
+                                            <div class="features-card__inner">
+                                                <div class="features-card__icon"><i class="icon-alcohol"></i></div>
+                                                <div class="features-card__content">
+                                                    <h3 class="features-card__title">З алкоголем</h3>
+                                                    <p class="features-card__text">не можна</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="features-list__item features-card">
+                                            <div class="features-card__inner">
+                                                <div class="features-card__icon"><i class="icon-receipt"></i></div>
+                                                <div class="features-card__content">
+                                                    <h3 class="features-card__title">Відпускається</h3>
+                                                    <p class="features-card__text">без рецепту</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="product-item__bottom">
+                                    <div class="product-item__content content">
+                                        <h2>Опис</h2>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic obcaecati, praesentium tempore sint nihil! Doloremque commodi dolorem corporis provident id modi vitae! Natus vero mollitia dolorem, consequuntur itaque omnis.</p>
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio mollitia animi at voluptates facilis consectetur laborum. Dolore cum iste officia, iure doloremque necessitatibus unde ullam beatae vero magni! Suscipit?</p>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit.</li>
+                                            <li>Lorem ipsum dolor sit.</li>
+                                            <li>Lorem ipsum dolor sit.</li>
+                                        </ul>
+                                        <h3>Lorem ipsum dolor sit.</h3>
+                                        <ol>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                        </ol>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum architecto fuga alias! Sequi quam odio ratione possimus non! Corporis est cum, sed doloremque in eligendi saepe tempora excepturi unde?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="product-item__relevant product-relevant">
+                                <h2 class="title_content product-relevant__title">Дивитись також</h2>
+                                <%- include('./components/partials/products-list.ejs', { count: 4 }) %>
+                            </div>
+                            <div id="feedback" class="product-item__feedback product-feedback">
+                                <h2 class="title_content product-feedback__title">Відгуки</h2>
+                                <div class="product-feedback__top">
+                                    <div class="product-feedback__caption">Залиште ваш відгук про товар</div>
+                                    <button data-popup="feedback|Залишити відгук" class="btn btn_prim product-feedback__btn">Залишити відгук</button>
+                                </div>
+                                <div class="product-feedback__bottom">
+                                    <%- include('./components/partials/reviews-list.ejs', { count: 4 }) %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <%- include('./components/root/footer.ejs') %>
+        <%- include('./components/root/actions.ejs') %>
+        <%- include('./components/root/popup.ejs') %>
+    </div>
+</body>
+
+</html>

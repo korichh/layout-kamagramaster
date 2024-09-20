@@ -1,0 +1,44 @@
+<ul class="reviews-list" itemscope="" itemtype="https://schema.org/ItemList">
+    <% for (let i = 0; i < count; i++) { %>
+    <li class="reviews-list__item review-card" itemscope="" itemprop="itemListElement" itemtype="https://schema.org/Review">
+        <div itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+            <meta itemprop="name" content="lorem ipsum">
+            <link itemprop="image" href="#">
+        </div>
+        <div itemprop="itemReviewed" itemscope="" itemtype="https://schema.org/Drug">
+            <meta itemprop="name" content="Віагра">
+            <div itemprop="aggregateRating" itemscope="" itemtype="https://schema.org/AggregateRating">
+                <meta itemprop="ratingValue" content="5">
+                <meta itemprop="ratingCount" content="2">
+            </div>
+        </div>
+        <div itemprop="reviewRating" itemscope="" itemtype="https://schema.org/Rating">
+            <meta itemprop="bestRating" content="5">
+            <meta itemprop="worstRating" content="1">
+            <meta itemprop="ratingValue" content="5">
+        </div>
+        <meta itemprop="datePublished" content="2024-04-04 17:53:31">
+        <meta itemprop="reviewBody" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio odio sequi quibusdam, cumque atque excepturi reiciendis est cum sed. Quia inventore commodi velit placeat veritatis maiores similique accusamus libero voluptas.">
+        <div class="review-card__inner">
+            <div class="review-card__top">
+                <div class="review-card__image"><img src="img/review/default.webp" alt="lorem ipsum" loading="lazy" width="100" height="100"></div>
+                <div class="review-card__author">
+                    <h3>lorem ipsum</h3>
+                    <div class="review-card__stars">
+                        <span class="icon-star-fill"></span>
+                        <span class="icon-star-fill"></span>
+                        <span class="icon-star-fill"></span>
+                        <span class="icon-star-fill"></span>
+                        <span class="icon-star-fill"></span>
+
+                    </div>
+                </div>
+                <time class="review-card__date" datetime="2024-04-04 17:53:31">2024-04-04 17:53:31</time>
+            </div>
+            <div class="review-card__bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio odio sequi quibusdam, cumque atque excepturi reiciendis est cum sed. Quia inventore commodi velit placeat veritatis maiores similique accusamus libero voluptas.</p>
+            </div>
+        </div>
+    </li>
+    <% } %>
+</ul>
